@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Machines_dashboard"
+    android:background="@color/white">
+
+    //actionbar
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_blackcolor_24"
+            app:title="Available Machines"
+            app:titleMarginStart="0dp"
+            app:titleTextColor="@color/black" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            //1.Forearm Machine
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Forearm_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:paddingTop="20dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:text="Forearm Machine"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            //2.Supporting_Pull_Ups_Machine
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Supporting_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                android:textAlignment="center"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="340dp"
+                        android:layout_height="106dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:paddingTop="20dp"
+                        android:textAlignment="center"
+                        android:text="Supporting Pull Ups Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //3.BICEP CURL MACHINE
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Bicep_Curl_Machine"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:gravity="center_vertical"
+                        android:text="   Bicep Curl Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //4.LAT PULL DOWN MACHINE
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Lat_Pulldown"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="340dp"
+                        android:layout_height="106dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:paddingTop="20dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:textAlignment="center"
+                        android:text="Lat Pulldown Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //5.Peck deck fly machine
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Peck_Deck_Machine"
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:textAlignment="center"
+                        android:paddingTop="20dp"
+                        android:text="Peck Deck Fly Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //6.Leg press machine
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Leg_Press_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:gravity="center_vertical"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:text="   Leg Press Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //7.Cable press machine
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cable_Cross_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:paddingTop="20dp"
+                        android:text="Cable Cross Machine"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //8. Olympia Bench Press
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Olympia_Bench_Press_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:paddingTop="20dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:textAlignment="center"
+                        android:text="Olympia Bench Press Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            //9. Spinning Cycle
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Spinning_Cycle_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:textAlignment="center"
+                        android:padding="25dp"
+                        android:text="Spinning Cycle"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            //10.Treadmill
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Treadmill_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:textAlignment="center"
+                        android:paddingTop="20dp"
+                        android:text="Treademill"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            //11.Sitted calf
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Sitted_calf_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:gravity="center_vertical"
+                        android:text="  Sitted Calf Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            //12.leg extension machine
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Leg_extension_Machine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:textAlignment="center"
+                        android:paddingTop="20dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:text="Leg extension Machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            //13.Smith machine
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Smith_Machine"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/card_view_bg">
+
+                    <TextView
+                        android:layout_width="290dp"
+                        android:layout_height="135dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="58dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="38dp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:gravity="center_vertical"
+                        android:text="     Smith machine"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

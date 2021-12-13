@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565534710622",
+    "project_id": "final-hardcore-gym",
+    "storage_bucket": "final-hardcore-gym.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565534710622:android:a9972a98bf5b462ce6cdcf",
+        "android_client_info": {
+          "package_name": "com.example.hardcoregym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565534710622-hm72aa7vju3dff6i1fg5n534513eqghg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBSqrFAxGJYaQ9X-7ZZtlM08ev-PeEyL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565534710622-hm72aa7vju3dff6i1fg5n534513eqghg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

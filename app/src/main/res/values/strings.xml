@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">HardCore Gym</string>
+    //Headings
+    <string name="heading_one">Be a part of HardCore Gym</string>
+    <string name="heading_two">Buy membership.</string>
+    <string name="heading_three">Go-Cart: Sit and buy anything you like</string>
+    <string name="heading_fourth">Know more about the gym</string>
+
+    //Description
+    <string name="desc_one">Become a member by registering yourself.</string>
+    <string name="desc_two">Cashless transaction to buy the membership.</string>
+    <string name="desc_three">Why come to gym and buy products, when you can buy them directly from home?</string>
+    <string name="desc_fourth">Not sure about our gym facilities? Other features of the app on the way to help you!</string>
+
+    //Exercises
+    <string name="quick_exercises">Quick Exercises!</string>
+    <string name="ratingstar">* * * * *</string>
+
+    <string name="title_activity_monday1" tools:ignore="Typos">Monday1</string>
+    <string name="title_activity_monday2">Monday2</string>
+    <string name="title_activity_monday3">Monday3</string>
+
+    <string name="title_activity_tuesday1" tools:ignore="Typos">Tuesday1</string>
+    <string name="title_activity_tuesday2">Tuesday2</string>
+    <string name="title_activity_tuesday3">Tuesday3</string>
+
+    <string name="title_activity_wednesday1" tools:ignore="Typos">Wednesday1</string>
+    <string name="title_activity_wednesday2">Wednesday2</string>
+    <string name="title_activity_wednesday3">Wednesday3</string>
+
+    <string name="title_activity_thursday1" tools:ignore="Typos">Thursday1</string>
+    <string name="title_activity_thursday2">Thursday2</string>
+    <string name="title_activity_thursday3">Thursday3</string>
+
+    <string name="title_activity_friday1" tools:ignore="Typos">Friday1</string>
+    <string name="title_activity_friday2">Friday2</string>
+    <string name="title_activity_friday3">Friday3</string>
+
+    <string name="title_activity_saturday1" tools:ignore="Typos">Saturday1</string>
+    <string name="title_activity_saturday2">Saturday2</string>
+    <string name="title_activity_saturday3">Saturday3</string>
+
+    <string name="title_activity_exerbeginner">Exerbeginner</string>
+    <string name="title_activity_exerintermediate">Exerintermediate</string>
+    <string name="title_activity_exerpro">Exerpro</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_upload_profile_picture">UploadProfilePicture</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    //go-cart
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+</resources>
